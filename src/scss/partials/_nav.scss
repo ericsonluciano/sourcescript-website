@@ -1,10 +1,27 @@
 .nav {
+  padding: 10px 0;
+  position: fixed;
+  left: 50%;
+  margin-left: -460px;
   ul {
     list-style:none;
     li {
+      vertical-align: middle;
+      display: inline-block;
+      margin: 0 20px;
+       font: 300 18px/1.6 'Open Sans', Helvetica, Arial;
+       text-transform: uppercase;
       a {
-
+	text-decoration: none;
+	color:$white;
+	&:hover{
+		color: darken($white, 10);
+	}
       }
     }
   }
 }
+
+    .active{
+    	font-weight: bold !important;
+      }

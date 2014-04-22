@@ -1,4 +1,10 @@
 //----------------------------------*\
+// Bourbon & Neat
+//----------------------------------*/
+@import "../components/bourbon/dist/bourbon";
+@import "../components/neat/app/assets/stylesheets/neat";
+
+//----------------------------------*\
 // SCSS MIXINS
 //----------------------------------*/
 
@@ -21,8 +27,8 @@
 
 @import 'partials/_header.scss';
 @import 'partials/_nav.scss';
-@import 'partials/_sidebar.scss';
-@import 'partials/_main.scss';
+@import 'partials/_headlines.scss';
+@import 'partials/_sections.scss';
 @import 'partials/_footer.scss';
 
 //----------------------------------*\

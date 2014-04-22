@@ -1,10 +1,161 @@
+/*
+Font Face Droid Serif
+*/
+
 @font-face {
-  font-family:'Font-Name';
-  src:url('../fonts/font-name.eot');
-  src:url('../fonts/font-name.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/font-name.woff') format('woff'),
-    url('../fonts/font-name.ttf') format('truetype'),
-    url('../fonts/font-name.svg#font-name') format('svg');
-    font-weight:normal;
+  font-family:'Droid Serif';
+  src:url('../fonts/DroidSerif.eot');
+  src:url('../fonts/DroidSerif.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidSerif.woff') format('woff'),
+    url('../fonts/DroidSerif.ttf') format('truetype'),
+    url('../fonts/DroidSerif.svg#Droid Serif') format('svg');
+    font-weight:400;
     font-style:normal;
+}
+
+@font-face {
+  font-family:'Droid Serif';
+  src:url('../fonts/DroidSerif-Italic.eot');
+  src:url('../fonts/DroidSerif-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidSerif-Italic.woff') format('woff'),
+    url('../fonts/DroidSerif-Italic.ttf') format('truetype'),
+    url('../fonts/DroidSerif-Italic.svg#Droid Serif') format('svg');
+    font-weight:400;
+    font-style:italic;
+}
+
+@font-face {
+  font-family:'Droid Serif';
+  src:url('../fonts/DroidSerif-Bold.eot');
+  src:url('../fonts/DroidSerif-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidSerif-Bold.woff') format('woff'),
+    url('../fonts/DroidSerif-Bold.ttf') format('truetype'),
+    url('../fonts/DroidSerif-Bold.svg#Droid Serif') format('svg');
+    font-weight:700;
+    font-style:normal;
+}
+
+@font-face {
+  font-family:'Droid Serif';
+  src:url('../fonts/DroidSerif-BoldItalic.eot');
+  src:url('../fonts/DroidSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidSerif-BoldItalic.woff') format('woff'),
+    url('../fonts/DroidSerif-BoldItalic.ttf') format('truetype'),
+    url('../fonts/DroidSerif-BoldItalic.svg#Droid Serif') format('svg');
+    font-weight:700;
+    font-style:italic;
+}
+
+
+/*
+Font Face Droid Serif
+*/
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-Light.eot');
+  src:url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Light.woff') format('woff'),
+    url('../fonts/OpenSans-Light.ttf') format('truetype'),
+    url('../fonts/OpenSans-Light.svg#Open Sans') format('svg');
+    font-weight:300;
+    font-style:normal;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-LightItalic.eot');
+  src:url('../fonts/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-LightItalic.woff') format('woff'),
+    url('../fonts/OpenSans-LightItalic.ttf') format('truetype'),
+    url('../fonts/OpenSans-LightItalic.svg#Open Sans') format('svg');
+    font-weight:300;
+    font-style:italic;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-Regular.eot');
+  src:url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+    url('../fonts/OpenSans-Regular.svg#Open Sans') format('svg');
+    font-weight:400;
+    font-style:normal;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-Italic.eot');
+  src:url('../fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Italic.woff') format('woff'),
+    url('../fonts/OpenSans-Italic.ttf') format('truetype'),
+    url('../fonts/OpenSans-Italic.svg#Open Sans') format('svg');
+    font-weight:400;
+    font-style:italic;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-Bold.eot');
+  src:url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Bold.woff') format('woff'),
+    url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+    url('../fonts/OpenSans-Bold.svg#Open Sans') format('svg');
+    font-weight:700;
+    font-style:normal;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-BoldItalic.eot');
+  src:url('../fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-BoldItalic.woff') format('woff'),
+    url('../fonts/OpenSans-BoldItalic.ttf') format('truetype'),
+    url('../fonts/OpenSans-BoldItalic.svg#Open Sans') format('svg');
+    font-weight:700;
+    font-style:italic;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-Semibold.eot');
+  src:url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Semibold.woff') format('woff'),
+    url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+    url('../fonts/OpenSans-Semibold.svg#Open Sans') format('svg');
+    font-weight:600;
+    font-style:normal;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-SemiboldItalic.eot');
+  src:url('../fonts/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-SemiboldItalic.woff') format('woff'),
+    url('../fonts/OpenSans-SemiboldItalic.ttf') format('truetype'),
+    url('../fonts/OpenSans-SemiboldItalic.svg#Open Sans') format('svg');
+    font-weight:600;
+    font-style:italic;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-ExtraBold.eot');
+  src:url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+    url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
+    url('../fonts/OpenSans-ExtraBold.svg#Open Sans') format('svg');
+    font-weight:800;
+    font-style:normal;
+}
+
+@font-face {
+  font-family:'Open Sans';
+  src:url('../fonts/OpenSans-ExtraBoldItalic.eot');
+  src:url('../fonts/OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-ExtraBoldItalic.woff') format('woff'),
+    url('../fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype'),
+    url('../fonts/OpenSans-ExtraBoldItalic.svg#Open Sans') format('svg');
+    font-weight:800;
+    font-style:italic;
 }

@@ -1,0 +1,25 @@
+{
+  "name": "SourceScript Innovation Website",
+  "version": "0.1.0",
+  "homepage": "www.sourcescript.ph",
+  "authors": [
+    "SourceScript Innovations <info@sourcescript.ph>"
+  ],
+  "description": "Our Website for the SourceScript.ph",
+  "keywords": [
+    "website"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "~1.6.0",
+    "bourbon": "~4.0.0"
+  }
+}

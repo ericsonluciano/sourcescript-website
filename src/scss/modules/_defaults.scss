@@ -3,12 +3,15 @@
   font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
   @include vendor(box-sizing, border-box);
+  margin: 0;
+  padding: 0;
 }
 html {
-  font-size:62.5%;
+  font-size: 62.5%;
 }
 body {
-  font:300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
-  background:#fff;
-  color:#444;
+  font: 400 13px/1.6 'Open Sans', Helvetica, Arial;
+  background: $white;
+  color: #444;
+  min-height: 1000px; 
 }
