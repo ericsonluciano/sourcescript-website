@@ -1,14 +1,14 @@
 .nav {
-  padding: 10px 0;
+  padding: 10px 0 15px;
   position: fixed;
   left: 50%;
-  margin-left: -460px;
+  margin-left: -470px;
   ul {
     list-style:none;
     li {
       vertical-align: middle;
       display: inline-block;
-      margin: 0 20px;
+      margin: 0 19px;
        font: 300 18px/1.6 'Open Sans', Helvetica, Arial;
        text-transform: uppercase;
       a {
@@ -24,4 +24,10 @@
 
     .active{
     	font-weight: bold !important;
+    	border-bottom: 1px solid $white;
+    	padding:0 5px;
+    		&:hover{
+		color: darken($white, 10);
+		border-bottom: 1px solid darken($white, 10);
+	}
       }
