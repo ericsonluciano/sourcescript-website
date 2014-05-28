@@ -1,8 +1,8 @@
 //----------------------------------*\
-// Bourbon & Neat
+// Boostrap Sass
 //----------------------------------*/
-@import "../components/bourbon/dist/bourbon";
-@import "../components/neat/app/assets/stylesheets/neat";
+
+@import "../components/boostrap-sass/vendor/assets/stylesheets/bootstrap";
 
 //----------------------------------*\
 // SCSS MIXINS
@@ -10,7 +10,7 @@
 
 @import 'mixins/_vendor.scss';
 @import 'mixins/_position.scss';
-
+@import 'mixins/_background.scss';
 //----------------------------------*\
 // CONFIG MODULES
 //----------------------------------*/

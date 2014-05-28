@@ -1,33 +1,89 @@
-.nav {
-  padding: 10px 0 15px;
-  position: fixed;
-  left: 50%;
-  margin-left: -470px;
+.header-fixed{
+  background: transparent;
+  border-color: transparent;
+}
+
+.header-scroll{
+  background: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+
+.navbar-default {
+  background: transparent;
+  border-color: transparent;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+  .navbar-brand {
+    float:none;
+    height: 100%;
+  }
   ul {
-    list-style:none;
     li {
-      vertical-align: middle;
-      display: inline-block;
-      margin: 0 19px;
        font: 300 18px/1.6 'Open Sans', Helvetica, Arial;
        text-transform: uppercase;
       a {
-	text-decoration: none;
-	color:$white;
-	&:hover{
-		color: darken($white, 10);
-	}
+	     text-decoration: none;
+	     color:$white;
+  	   &:hover{
+  		  color: darken($white, 10);
+        background: transparent;
+  	   }
       }
     }
   }
 }
 
-    .active{
-    	font-weight: bold !important;
-    	border-bottom: 1px solid $white;
-    	padding:0 5px;
-    		&:hover{
-		color: darken($white, 10);
-		border-bottom: 1px solid darken($white, 10);
-	}
-      }
+
+.active{
+font-weight: bold !important;
+border-bottom: 1px solid $white;
+padding:0 2px;
+	&:hover{
+    color: darken($white, 10);
+    border-bottom: 1px solid darken($white, 10);
+  }
+}
+
+.navbar-scroll {
+    background-color: rgba(238,234,221,1);
+    .nav {
+      height: 70px;
+        li {
+            a {
+            color: $secondary-color;
+                &:hover, &:focus {
+                    color: $secondary-color-hover;
+                }
+            }
+        }
+    }
+}
+
+.logo-resize {
+    -webkit-transform: scale(1, 1);
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transform: scale(1, 1);
+    -moz-transition-duration: 500ms;
+    -moz-transition-timing-function: ease-out;
+    -ms-transform: scale(1, 1);
+    -ms-transition-duration: 500ms;
+    -ms-transition-timing-function: ease-out;
+}
+
+@media(min-width:767px) {
+.navbar {
+    padding: 20px 0;
+    -webkit-transition: all .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out,padding .5s ease-in-out;
+    transition: all .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    /* Customize the look and feel of the collapsed top nav here */
+    padding: 0;
+}
+}

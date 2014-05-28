@@ -1,3 +1,214 @@
-.main {
-@include outer-container;
+.lets-meet {
+	background:  url("/assets/img/message-bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width:100%;
+	height: 400px;
+  z-index: 2;
+  text-align: center;
+	.message {
+		margin: 80px 0 ;
+		font: 300 30px/1.6 'Open Sans', Helvetica, Arial;
+		text-align: center;
+		color: $white;
+		strong{
+			font: 400 italic 30px/1.6 'Droid Serif', sans-serif;
+		}
+	}
+	.btn-meet {
+		margin: 50px auto;
+		color: $primary-color;
+		text-decoration: none;
+		font: 700 24px/1.6 'Droid Serif', sans-serif;
+		padding: 10px 20px;
+		border-radius: 10px;
+		border: 2px solid $primary-color;
+		background: transparent;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+		&:hover {
+			background: $primary-color;
+			color: $white;
+		}
+	}
+}
+
+.our-services{
+  height: 500px;
+  width: 100%;
+  padding: 20px 0;
+  background: $white;
+  z-index: 3;
+  .title {
+  	color: $primary-color;
+  	font: 48px/1.6 'Open Sans', Helvetica, Arial;
+  }
+  .service-list{
+  	ul {
+  		list-style-type: none;
+  		margin: 50px auto;
+  		li {
+  			height: 230px;
+				text-align: center;
+				padding: 20px 0;
+				position: relative;
+		    -webkit-transition: all 500ms ease-out;
+		    -moz-transition: all 500ms ease-out;
+		    -o-transition: all 500ms ease-out;
+		    transition: all 500ms ease-out;
+				&:hover {
+					background: lighten($white, 10%);
+					border-radius: 5px;
+				}
+
+				.service-title {
+					font: 700 18px/1.6 'Open Sans, Helvetica, Arial';
+					color: $primary-color;
+				}
+				.service-shortdesc {
+					font: 400 14px/1.2 'Droid Serif', sans-serif;
+					color: $secondary-color;
+					position: relative;
+					bottom: 0;
+					width: 166px;
+					margin: 0 auto;
+				}
+  		}
+  	}
+  }
+}
+
+.our-projects{
+  height: 400px;
+  width: 100%;
+  padding: 20px 0;
+  background: url("/assets/img/our-projects.png") no-repeat center right,$primary-color;
+  z-index: 4;
+  .title {
+  	color: $white;
+  	font: 48px/1.6 'Open Sans', Helvetica, Arial;
+  }
+  .projects-info {
+  	img {
+  		float:left;
+  	}
+		.btn-project {
+			border-radius: 10px;
+			border: 2px solid $white;
+			font: 700 24px/1 'Open Sans', Helvetica, Arial;
+			text-transform: uppercase;
+			text-align: center;
+			padding: 10px 20px;
+			margin: 20px auto;
+			float: left;
+			color: $white;
+			-webkit-transition: all 1s ease-out;
+			-moz-transition: all 1s ease-out;
+			-o-transition: all 1s ease-out;
+			transition: all 1s ease-out;
+			&:hover {
+				color: $primary-color;
+				background: $white;
+				text-decoration: none;
+			}
+		}
+  }
+}
+
+
+
+//Services list
+.serviceslist {
+	background:  url("/assets/img/services-list.jpg") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	width:100%;
+	height: 750px;
+	z-index: 2;
+	ul {
+		list-style-type: none;
+		margin: 300px auto;
+		li {
+			height:180px;
+			width: 180px;
+			padding: 20px 0;
+			border-radius: 50%;
+			text-align: center;
+			position: relative;
+			margin: 0 5px;
+	    -webkit-transition: all 500ms ease-out;
+	    -moz-transition: all 500ms ease-out;
+	    -o-transition: all 500ms ease-out;
+	    transition: all 500ms ease-out;
+			&:hover {
+				background: lighten($white, 10%);
+			}
+		}
+	}
+}
+.services-content {
+	width: 810px;
+	height: 500px;
+	margin: 125px auto;
+	background: $white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 0px rgba( 51, 51, 51, 0.5 );
+	text-align: center;
+	padding: 30px;
+	img {
+		width: 180px;
+		height: auto;
+	}
+	h2 {
+		font: 700 36px/1 'Open Sans', Helvetica, Arial;
+		text-transform: uppercase;
+	}
+	p {
+		font: 400 18px/1.6 'Droid Serif', sans-serif;
+		margin: 0 0 30px;
+	}
+	.btn-services {
+		color: $primary-color;
+		border: 1px solid $primary-color;
+		padding: 10px 30px;
+		font: 700 24px/1 'Open Sans', Helvetica, Arial;
+		border-radius: 5px;
+		-webkit-transition: all 1s ease-out;
+		-moz-transition: all 1s ease-out;
+		-o-transition: all 1s ease-out;
+		transition: all 1s ease-out;
+		&:hover {
+			color: $white;
+			background: $primary-color;
+			text-decoration: none;
+
+		}
+	}
+
+}
+
+.serviceswebsite {
+	@include background("/assets/img/services-website.jpg");
+}
+
+.serviceswebapp {
+	@include background("/assets/img/services-webapp.jpg");
+}
+
+.servicesecommerce {
+	@include background("/assets/img/services-ecommerce.jpg");
+}
+
+.servicesmobileapp {
+	@include background("/assets/img/services-mobileapp.jpg");
+}
+
+.servicesfacebookapp {
+	@include background("/assets/img/services-facebookapp.jpg");
+}
+
+.servicesbranding {
+	@include background("/assets/img/services-branding.jpg");
 }

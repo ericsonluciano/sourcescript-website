@@ -1,8 +1,7 @@
 .headlines{
-padding: 320px 0;
-@include outer-container;
+padding: 220px 0;
     h2{
-        font: 400 36px/1.6 'Open Sans', Helvetica, Arial;
+        font: 400 36px/1 'Open Sans', Helvetica, Arial;
         color: $white;
         text-shadow: 3.536px 3.536px 7px rgba( 108, 108, 108, 0.5 );
     }
@@ -10,7 +9,7 @@ padding: 320px 0;
 	width: 200px;
     }
     h1{
-        font: 300 48px/1.6 'Open Sans', Helvetica, Arial;
+        font: 300 48px/1 'Open Sans', Helvetica, Arial;
         color: $white;
         text-shadow: 3.536px 3.536px 7px rgba( 108, 108, 108, 0.5 );  	
         margin:0;
@@ -20,7 +19,7 @@ padding: 320px 0;
     }
     h3{
 
-        font: 400 italic 24px/1.6 'Droid Serif', sans-serif;
+        font: 400 italic 24px/1 'Droid Serif', sans-serif;
         color: $white;
         text-shadow: 3.536px 3.536px 7px rgba( 108, 108, 108, 0.5 );  	
         margin: 0;
@@ -28,6 +27,37 @@ padding: 320px 0;
 	 font-weight: 700;
 	 color: $white;
 	 text-decoration: none;
+        }
+    }
+}
+
+.headlines-2{
+padding: 150px 0 30px;
+    h2{
+        font: 400 36px/1 'Open Sans', Helvetica, Arial;
+        color: $white;
+        text-shadow: 3.536px 3.536px 7px rgba( 108, 108, 108, 0.5 );
+    }
+    hr{
+    width: 200px;
+    }
+    h1{
+        font: 300 48px/1 'Open Sans', Helvetica, Arial;
+        color: $white;
+        text-shadow: 3.536px 3.536px 7px rgba( 108, 108, 108, 0.5 );    
+        margin:0;
+        & #whatwedo{
+            font-weight: 600;
+        }
+    }
+    .headlines-arrow {
+        margin: 60px  auto 0;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        p {
+            margin: 0;
+            color: $white;
         }
     }
 }

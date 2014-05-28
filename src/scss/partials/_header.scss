@@ -1,7 +1,14 @@
 .header {
-  background:  url("/assets/img/header.jpg") no-repeat top center;
+  background:  url("/assets/img/header.jpg") no-repeat top center ;
   background-size: cover;
   background-attachment: fixed;
   width:100%;
-  height: 650px;
+	height: 700px;
+	z-index: 1;
+}
+
+.header-2 {
+  background: $primary-color;
+  width:100%;
+	height: 450px;
 }

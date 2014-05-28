@@ -19,7 +19,6 @@
     "tests"
   ],
   "dependencies": {
-    "neat": "~1.6.0",
-    "bourbon": "~4.0.0"
+    "boostrap-sass": "~3.1.1+2"
   }
 }
